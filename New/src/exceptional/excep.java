@@ -11,8 +11,9 @@ public class excep {
             System.out.println("Result is: " + result); 
         } catch (Exception e) {
             System.out.println("Exception occurred: " + e);
-            // result value is still 0 here
+            
             System.out.println("Result is not available due to exception.");
         }
     }
 }
+
