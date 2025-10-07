@@ -2,15 +2,15 @@ a=433
 print(f"Number is:{a}")
 
 
-name = "Alice"               # str
-age = 25                    # int
-height = 5.6                # float
-is_student = True           # bool
-hobbies = ["reading", "coding"]  # list
-scores = (90, 85, 88)       # tuple
-profile = {"username": "alice123", "verified": True}  # dict
-favorite_subjects = {"Math", "Science"}  # set
-grade = None                # NoneType
+name = "Alice"               
+age = 25                    
+height = 5.6                
+is_student = True           
+hobbies = ["reading", "coding"]  
+scores = (90, 85, 88)       
+profile = {"username": "alice123", "verified": True}  
+favorite_subjects = {"Math", "Science"}  
+grade = None               
 print(f"Name: {name}, Age: {age}, Height: {height}, Student: {is_student}")
 print(f"Hobbies: {hobbies}, Scores: {scores}")
 print(f"Profile: {profile}")
@@ -135,3 +135,4 @@ print("*************************************************************************
 
 
     
+
