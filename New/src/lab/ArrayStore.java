@@ -6,15 +6,15 @@ import java.util.Scanner;
 public class ArrayStore {
 
     private int[] arr;
-    private int size;  // current number of elements (to manage insertions)
+    private int size;  
 
-    // Constructor initializes array with capacity 10
+    
     public ArrayStore() {
         arr = new int[10];
         size = 0;
     }
 
-    // Accept 10 integers and store them into the array
+    
     public void acceptIntegers() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter 10 integers:");
@@ -24,7 +24,7 @@ public class ArrayStore {
         size = 10;
     }
 
-    // Display elements using while loop
+    
     public void displayWhile() {
         System.out.print("Array elements (while loop): ");
         int i = 0;
@@ -35,7 +35,7 @@ public class ArrayStore {
         System.out.println();
     }
 
-    // Display elements using for loop
+    
     public void displayFor() {
         System.out.print("Array elements (for loop): ");
         for (int i = 0; i < size; i++) {
@@ -144,3 +144,4 @@ public class ArrayStore {
         System.out.println();
     }
 }
+
